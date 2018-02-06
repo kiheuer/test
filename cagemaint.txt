@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Header/>
+	<s:Body>
+		<tem:AddEx xmlns:tem="http://tempuri.org/">
+			<tem:svcSessionToken>AOPS:1WFHwtQDzQEIBwsXGHLwXqVYX</tem:svcSessionToken>
+			<tem:requestXmlString><![CDATA[
+				
+				<WebServiceRoot>
+	<WebService Name="Web Service Ticket" TypeName="_WebServiceTicket" ValueIdentifier="id">
+		<Attribute Caption="initials" DataType="String" ReadOnly="False" ReferenceType="" Required="False" Value="b"/>
+		<Attribute Caption="Facility" DataType="_Facility" ReadOnly="False" ReferenceType="EntityType" Required="False" Value="" ValueIdentifier="name"/>
+		<Attribute Caption="attributes" DataType="String" ReadOnly="False" ReferenceType="" Required="False" Value="{&quot;scanType&quot;:&quot;Full&quot;, &quot;numMort&quot;:1, &quot;isHealthIssue&quot;:&quot;False&quot;, &quot;rackCoord&quot;:&quot;A1B2&quot;, &quot;notes&quot;:&quot;&quot;}"/>
+		<Attribute Caption="actionType" DataType="String" ReadOnly="False" ReferenceType="" Required="False" Value="Cage Maintenance"/>
+		<Attribute Caption="cageCard" DataType="_CageCard" ReadOnly="False" ReferenceType="EntityType" Required="False" Value="CC02000128" ValueIdentifier="ID"/>
+	</WebService>
+</WebServiceRoot>
+			]]></tem:requestXmlString>
+		</tem:AddEx>
+	</s:Body>
+</s:Envelope>
